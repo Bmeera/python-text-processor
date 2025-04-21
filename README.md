@@ -2,7 +2,7 @@
 
 ![CI Status](https://github.com/bmeera/python-text-processor/actions/workflows/python-app.yml/badge.svg)
 
-**CSCI-5400 Lab**: A simple Python application that works with text files.
+A Python application that works with text files.
 
 This application reads text from a file, counts the number of words, converts the text to uppercase, and writes the result to a new file.
 
