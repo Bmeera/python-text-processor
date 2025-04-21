@@ -1,3 +1,5 @@
+import os
+
 def prompt_user_for_input(input_file):
     """Ask user if they want to provide new text and save it to input.txt."""
     while True:
@@ -66,7 +68,9 @@ def write_results(results, output_file):
 
 def main(input_file="input.txt", output_file="output.txt"):
     """Main function to process a text file."""
-    prompt_user_for_input(input_file) #propmts the user to ask if they want to change the file
+    # Skip interactive prompt if running in CI
+    if os.getenv("CI") != "true":
+        prompt_user_for_input(input_file) #propmts the user to ask if they want to change the file
 
     text = read_file(input_file)
     if text:
