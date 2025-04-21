@@ -4,7 +4,9 @@
 
 **CSCI-5400 Lab**: A simple Python application that works with text files.
 
-This application reads text from a file, counts the number of words, converts the text to uppercase, and writes the result to a new file. It includes a full CI/CD pipeline using GitHub Actions and Docker for automated testing, releasing, and container deployment.
+This application reads text from a file, counts the number of words, converts the text to uppercase, and writes the result to a new file.
+
+It includes a full CI/CD pipeline using GitHub Actions and Docker for automated testing, releasing, and container deployment.
 
 ---
 
